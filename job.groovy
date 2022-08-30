@@ -9,7 +9,6 @@ properties([
 ])
 
 node {
-    git 'https://github.com/Dhia-Negla/job-jenkins'
-    def file = load 'job-jenkins/jobs/file.groovy'
+    def file = load 'jobs/file.groovy'
     file.fct2()
 }
