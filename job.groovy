@@ -11,5 +11,5 @@ properties([
 node {
     checkout scm
     def file = load 'jobs/file.groovy'
-    file.fct2()
+    file.fct(BranchTagName)
 }
