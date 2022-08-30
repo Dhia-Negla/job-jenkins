@@ -9,6 +9,6 @@ properties([
 ])
 
 node {
-    def deployJob = load './file.groovy'
-    deployJob.fct2()
+    def file = load './file.groovy'
+    file.fct2()
 }
