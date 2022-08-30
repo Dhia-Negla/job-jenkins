@@ -10,6 +10,6 @@ properties([
 
 node {
     checkout scm
-    //def file = load 'jobs/file.groovy'
-    load("jobs/file.groovy").fct2()
+    def file = load 'jobs/file.groovy'
+    file.fct2()
 }

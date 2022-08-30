@@ -5,3 +5,5 @@ def fct(arg){
 def fct2(){
     echo "abc"
 }
+
+return this
