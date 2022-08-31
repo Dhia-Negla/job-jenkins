@@ -9,7 +9,9 @@ properties([
 ])
 
 node {
-    checkout scm
+    //checkout scm
     def file = load 'jobs/file.groovy'
     file.fct(BranchTagName)
 }
+
+//checkout scm //
